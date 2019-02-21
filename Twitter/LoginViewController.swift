@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  Twitter
 //
-//  Created by Philip Yu on 2/20/19.
+//  Created by Alec Tenefrancia on 2/20/19.
 //  Copyright © 2019 Dan. All rights reserved.
 //
 
@@ -26,11 +26,11 @@ class LoginViewController: UIViewController {
     
     @IBAction func onLoginButton(_ sender: Any) {
         
-        let authUrl = "https://api.twitter.com/oauth/request_token"
+        let myUrl = "https://api.twitter.com/oauth/request_token"
         
         UserDefaults.standard.set(true, forKey: "userLoggedIn")
         
-        TwitterAPICaller.client?.login(url: authUrl, success: {
+        TwitterAPICaller.client?.login(url: myUrl, success: {
             self.performSegue(withIdentifier: "loginToHome", sender: self)
         }, failure: { (Error) in
             print("Could not log in!")
