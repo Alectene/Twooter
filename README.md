@@ -23,5 +23,14 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+infinite scroll + logout
+
+
 <img src='http://g.recordit.co/xCYgdaZuBf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+login + refresh
+
+
+<img src='http://g.recordit.co/AMQobfOg0A.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
